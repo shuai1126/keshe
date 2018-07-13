@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddPerson</class>
+ <widget class="QWidget" name="AddPerson">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>960</width>
+    <height>540</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>20</y>
+     <width>261</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>40</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>添加/删除乘客</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>59</x>
+     <y>99</y>
+     <width>861</width>
+     <height>82</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>账户信息</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>添加乘客</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>删除乘客</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>450</y>
+     <width>191</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>完成</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>180</y>
+     <width>859</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <attribute name="horizontalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>270</number>
+   </attribute>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>180</y>
+     <width>104</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>二代身份证</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>港澳台证</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>护照</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>180</y>
+     <width>104</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>二代身份证</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>港澳台证</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>护照</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_3">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>190</y>
+     <width>104</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>二代身份证</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>港澳台证</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>护照</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_4">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>190</y>
+     <width>104</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>二代身份证</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>港澳台证</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>护照</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_5">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>190</y>
+     <width>104</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>二代身份证</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>港澳台证</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>护照</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_6">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>190</y>
+     <width>104</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>二代身份证</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>港澳台证</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>护照</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_7">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>190</y>
+     <width>104</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>二代身份证</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>港澳台证</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>护照</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_8">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>190</y>
+     <width>104</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>二代身份证</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>港澳台证</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>护照</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_9">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>190</y>
+     <width>104</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>二代身份证</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>港澳台证</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>护照</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_10">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>190</y>
+     <width>104</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>二代身份证</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>港澳台证</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>护照</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>30</y>
+     <width>150</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>450</y>
+     <width>371</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>&gt;基本信息&gt;添加/删除乘客</string>
+   </property>
+  </widget>
+  <zorder>comboBox_10</zorder>
+  <zorder>comboBox_9</zorder>
+  <zorder>comboBox_8</zorder>
+  <zorder>comboBox_7</zorder>
+  <zorder>comboBox_6</zorder>
+  <zorder>comboBox_5</zorder>
+  <zorder>comboBox_4</zorder>
+  <zorder>comboBox_3</zorder>
+  <zorder>comboBox_2</zorder>
+  <zorder>comboBox</zorder>
+  <zorder>label</zorder>
+  <zorder>verticalLayoutWidget</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>tableWidget</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>label_9</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
